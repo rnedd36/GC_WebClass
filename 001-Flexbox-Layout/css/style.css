@@ -1,0 +1,27 @@
+header{
+  color: #0CA3FC;
+  background-color: #0C04BC;
+}
+article{
+  color: #772020;
+  background-color: #D78080;
+
+}
+footer{
+  color: #0000FF;
+  background-color: #9090D9;
+}
+aside:nth-child(3){
+  color: #F6D140;
+  background-color:#B69100;
+}
+aside:nth-child(4){
+  color: #F640D0;
+  background-color: #B60090;
+}
+header, footer, aside, article h1{
+  font-size: 3em;
+}
+article{
+  font-size: 2vw;
+}

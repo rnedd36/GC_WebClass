@@ -4,6 +4,9 @@ body{
 aside{
   width: 50%;
 }
-article{
+main{
   height: 55vh;
+}
+article{
+  font-size: 2vw;
 }

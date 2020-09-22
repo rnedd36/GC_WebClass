@@ -4,7 +4,7 @@ body{
   flex-wrap: wrap;
 }
 
-header, article, aside, footer {
+header, main, aside, footer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -16,8 +16,12 @@ header, aside, footer{
 header{
   height: 20vh;
 }
-article{
+main{
   height: 35vh;
+
+}
+article h1{
+  text-align: center;
 }
 aside{
   height: 20vh;

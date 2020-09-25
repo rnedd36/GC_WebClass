@@ -1,13 +1,14 @@
 
 main{
   width: 60%;
-  height: 75vh;
   order: 2;
+}
+main, aside{
+  height: 75vh;
 }
 aside{
   font-size: 3vw;
   width: 20%;
-  height: 75vh;
 }
 aside:nth-child(3){
   order: 1;

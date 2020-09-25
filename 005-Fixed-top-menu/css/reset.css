@@ -1,0 +1,41 @@
+html {
+  /*font-size: 2vw; */
+  color: #DDD;
+  font-size: calc(.6em + 0.5vw);
+  line-height: calc(1.1em + 0.5vw);
+  box-sizing: border-box;
+}
+
+body, header, nav, article, ul {
+  padding: 0;
+  margin: 0;
+
+}
+body{
+
+  max-width: 2500px;
+  min-width: 250px;
+}
+button {
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+li {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}

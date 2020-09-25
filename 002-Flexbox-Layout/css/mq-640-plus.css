@@ -1,0 +1,13 @@
+section{
+  display: flex;
+  flex-flow: row wrap;
+}
+nav, aside{
+    width: 20%;
+}
+article{
+  width: 60%;
+}
+nav, aside, article{
+  height: 100%;
+}

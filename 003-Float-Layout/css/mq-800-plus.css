@@ -1,0 +1,25 @@
+body{
+
+  background-color: #000;
+}
+
+nav{
+  float: left;
+  width: 25.5%;
+  height: 300px;
+
+  height: 70vh;
+  line-height: 70vh;
+}
+
+main{
+  float: right;
+  width: 74%;
+  height: 70vh;
+  line-height: 70vh;
+
+
+}
+footer{
+  clear: both;
+}

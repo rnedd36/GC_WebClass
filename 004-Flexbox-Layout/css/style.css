@@ -1,0 +1,19 @@
+html{
+  font-size: 2rem;
+}
+header{
+  color: #0CA3FC;
+  background-color: #0C04BC;
+}
+footer{
+  color: #0000FF;
+  background-color: #9090D9;
+}
+nav{
+  color: #F640D0;
+  background-color: #B60090;
+}
+main{
+  color: #F6D140;
+  background-color:#B69100;
+}

@@ -1,0 +1,20 @@
+header, main,
+nav, footer{
+  width: 100%;
+  text-align: center;
+}
+
+header{
+
+  height: 20vh;
+  line-height: 20vh;
+}
+nav,footer{
+  height: 10vh;
+  line-height: 10vh;
+}
+main{
+
+  height: 60vh;
+  line-height: 60vh;
+}

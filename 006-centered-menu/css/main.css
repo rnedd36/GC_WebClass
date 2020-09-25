@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header, article, aside, footer, section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header{
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+nav{
+  width: 75%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+aside, footer, section{
+  align-items: center;
+}
+
+article{
+  padding: 0 1em;
+  min-height: 40vh;
+}
+aside{
+  min-height: 20vh;
+}
+footer{
+  min-height: 5vh;
+}
+button{
+  flex-grow: 1;
+  height: 50%;
+  cursor: pointer;
+}

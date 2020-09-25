@@ -1,0 +1,33 @@
+
+nav{
+  width: 60%;
+}
+article{
+  width: 60%;
+  min-height: 75vh;
+  font-size: 1.8vw;
+  order: 2;
+}
+aside{
+  font-size: 3em;
+  width: 20%;
+  min-height: 75vh;
+
+
+}
+aside:nth-child(3){
+  order: 1;
+  color: #772020;
+  background-color: #D78080;
+
+}
+aside:nth-child(4){
+  order: 3;
+  color: #772020;
+  background-color: #D78080;
+  
+}
+footer{
+  height:5vh;
+  order: 4;
+}

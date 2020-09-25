@@ -1,0 +1,7 @@
+body, html, header, article, aside,
+footer, p, section, nav{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

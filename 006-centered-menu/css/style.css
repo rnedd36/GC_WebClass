@@ -1,0 +1,41 @@
+
+article{
+  font-size: 3vw;
+  line-height: 1.5;
+  color: #772020;
+  background-color: #D78080;
+  padding: 2em;
+}
+article, header, button{
+
+  color: #772020;
+  background-color: #D78080;
+
+}
+article h1,section,aside,footer{
+  font-size: 4em;
+}
+aside:nth-child(3){
+  color: #F6D140;
+  background-color:#B69100;
+}
+aside:nth-child(4){
+  color: #F640D0;
+  background-color: #B60090;
+}
+footer{
+  color: #0C04BC;
+  background-color: #9090D9;
+}
+
+nav{
+  border-bottom: .1rem solid #909090;
+}
+button, a{
+  font-size: 1.6rem;
+  border-bottom: .2rem solid #772020;
+}
+button:hover, a:hover{
+  color: #40FFF0;
+  border-bottom: .2rem solid #40FFF0;
+}

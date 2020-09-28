@@ -1,0 +1,31 @@
+html{
+
+  
+}
+section{
+  display: flex;
+  flex-flow: row wrap;
+}
+nav, aside{
+    width: 20%;
+}
+article{
+  width: 60%;
+}
+nav, aside, article{
+  height: 100%;
+}
+nav, ul{
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: space-around;
+
+}
+div{
+  height: 10%;
+  width: 100%;
+}
+button{
+  width: 100%;
+}

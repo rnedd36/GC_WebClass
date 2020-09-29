@@ -1,55 +1,60 @@
-body {
+body{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-}
 
-header, article, aside, footer, section {
+}
+header, article, aside, footer, section{
   width: 100%;
 }
-
-header, aside, footer, article {
+header, article, aside, footer{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-header {
+header{
   height: 20vh;
-}
 
-section {
+}
+section{
   height: 75vh;
-}
 
-nav {
+}
+nav{
   height: 10%;
-  display: flex;
+  display:flex;
   justify-content: space-between;
+
+}
+.nav{
+  display: flex;
+  justify-content:center;
+  align-items: stretch;
+}
+ul{
+  display: flex;
+
+
+}
+
+a{
+  display: flex;
+  justify-content: center;
   align-items: center;
-}
-
-div {
   height: 100%;
-}
 
-button, li a{
-  height: 100%;
-  padding: 0 8px;
 }
-
-article {
+li a:nth-child(1){
+  padding: 0 3px;
+}
+li a:nth-child(2){
+  padding: 0 10px;
+}
+article{
   height: 70%;
 }
-
-aside {
+aside{
   height: 20%;
 }
-
-footer {
+footer{
   height: 5vh;
-}
-
-p {
-  padding: 10px;
 }

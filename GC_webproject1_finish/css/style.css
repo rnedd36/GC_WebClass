@@ -1,0 +1,48 @@
+header {
+  color: #3A405F;
+  /*background-color: #A9405F;*/
+  background-color: #A940EF;
+
+}
+
+section h1 {
+  font-size: 9vw;
+}
+nav{
+  background-color: rgba(0,0,0,.6);
+}
+
+li{
+  border: 1px solid #77b020;
+}
+li a {
+  color: #A9405F;
+  font-size: 1.5rem;
+
+}
+
+
+li a:hover {
+  background-color: #F990AF;
+}
+
+aside {
+
+  color: #A9F05F;
+  background-color: #A9905F;
+}
+
+body>section {
+  color: #AAD0EF;
+  background-color: #1A405F;
+}
+
+footer {
+  color: #3A40EF;
+  background-color: #A940EF;
+}
+
+section:nth-child(1), body>section,
+aside, footer {
+  font-size: 3rem;
+}

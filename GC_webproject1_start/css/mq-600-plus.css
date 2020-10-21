@@ -1,1 +1,16 @@
+aside{
+  width:30%;
+}
+aside,body>section{
+  height:75vh;
+}
 
+body>section{
+  width:70%;
+}
+ul{
+  width:75%;
+}
+li{
+  border:none;
+}

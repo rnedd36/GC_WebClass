@@ -1,0 +1,21 @@
+.active, a[href="#"]{
+  color: #77b020;
+  background-color: #3a40ef;
+}
+.active::before, a[href="#"]::before{
+  content:"";
+  display: inline;
+  width:1px;
+  height: 2px;
+  border: 15px solid rgba(119,176,32,.6);
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  margin-top: -8px;
+
+}
+li{
+  position: relative;
+  overflow: hidden;
+}

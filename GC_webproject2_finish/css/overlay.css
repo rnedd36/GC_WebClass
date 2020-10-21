@@ -1,0 +1,80 @@
+.appear{
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  background-color:rgba(0,0,0,.6);
+  font-size: .7em;
+  opacity: 0;
+  line-height:1.5;
+  transition: 2s ease;
+}
+.overlay .appear:hover{
+  opacity: 1;
+}
+.overlay{
+  overflow:hidden;
+}
+.slide-up{
+  position:absolute;
+  bottom:0;
+
+  width:100%;
+  height:0;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  background-color:rgba(0,0,0,.6);
+  font-size: .7em;
+  opacity: 0;
+  line-height:1.5;
+  transition: 2s ease;
+
+}
+.left-in{
+  position:absolute;
+  bottom:0;
+
+  width:0;
+  height:100%;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  background-color:rgba(0,0,0,.6);
+  font-size: .7em;
+  opacity: 0;
+  line-height:1.5;
+  transition: 2s ease;
+
+}
+.overlay:hover .left-in{
+  width: 104%;
+  opacity: 1;
+}
+.overlay:hover .slide-up{
+
+  height: 104%;
+
+  opacity: 1;
+}
+.fade{
+
+  background-color:rgba(0,0,0,.3);
+
+  opacity: 1;
+
+  animation: appear 10s ease-in-out infinite alternate;
+}
+@keyframes appear{
+  from{
+
+  opacity: 0;
+  }
+  to {
+
+    opacity: 1;
+  }
+}

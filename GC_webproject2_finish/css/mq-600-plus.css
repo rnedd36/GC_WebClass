@@ -1,0 +1,30 @@
+aside{
+  display:flex;
+  flex-direction:column;
+  width: 30%;
+  min-height: 85vh;
+}
+
+footer{
+  height: 10vh;
+}
+section>img{
+  max-height: 25vh;
+
+}
+
+body > section{
+  width: 70%;
+  padding:2%;
+  height: 85vh;
+
+}
+
+ul{
+  width: 50%;
+}
+
+li{
+  border: none;
+
+}

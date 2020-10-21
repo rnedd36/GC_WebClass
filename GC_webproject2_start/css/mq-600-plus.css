@@ -1,0 +1,17 @@
+aside{
+  display:flex;
+  width: 30%;
+  height: 75vh;
+}
+
+body > section{
+  width: 70%;
+  height: 75vh;
+
+}
+ul{
+  width: 50%;
+}
+li{
+  border: none;
+}

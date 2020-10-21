@@ -1,0 +1,51 @@
+aside{
+  display:flex;
+  padding:2%;
+}
+aside>section{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  margin: 2%;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px #000;
+  border:3px solid #fff;
+}
+
+section>img{
+  width: inherit;
+  height:inherit;
+  border-radius: 50%;
+}
+
+
+
+.center{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: inherit;
+}
+aside section:hover{
+  box-shadow: 0 0 0;
+
+}
+article{
+  display:flex;
+  flex-wrap: wrap;
+  line-height: 2;
+  text-align: center;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+  border: 15px groove rgba(0,0,0,.6);
+}
+.main-img{
+  background-image: url("../img/times-square.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

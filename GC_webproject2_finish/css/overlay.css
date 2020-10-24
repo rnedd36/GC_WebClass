@@ -1,5 +1,15 @@
+.overlay{
+  overflow:hidden;
+  position: relative;
+  transition: .3s ease-in;
+}
+
 .appear{
   position:absolute;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
   top:0;
   width:100%;
   height:100%;
@@ -7,47 +17,55 @@
   text-align: center;
   vertical-align: center;
   background-color:rgba(0,0,0,.6);
-  font-size: .7em;
+  font-size: 1.2rem;
   opacity: 0;
-  line-height:1.5;
-  transition: 2s ease;
+  line-height:1.2;
+  transition: .5s ease-in;
+  z-index: 3000;
 }
 .overlay .appear:hover{
   opacity: 1;
+
 }
-.overlay{
-  overflow:hidden;
+.overlay:hover{
+  box-shadow: 0 0 0;
 }
 .slide-up{
   position:absolute;
   bottom:0;
-
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
   width:100%;
   height:0;
   border-radius: 50%;
   text-align: center;
   vertical-align: center;
   background-color:rgba(0,0,0,.6);
-  font-size: .7em;
+  font-size: 1.2rem;
   opacity: 0;
   line-height:1.5;
-  transition: 2s ease;
+  transition: .5s ease;
 
 }
 .left-in{
   position:absolute;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
   bottom:0;
-
   width:0;
   height:100%;
   border-radius: 50%;
   text-align: center;
   vertical-align: center;
   background-color:rgba(0,0,0,.6);
-  font-size: .7em;
+  font-size: 1.2rem;
   opacity: 0;
   line-height:1.5;
-  transition: 2s ease;
+  transition: .5s ease;
 
 }
 .overlay:hover .left-in{
@@ -59,22 +77,4 @@
   height: 104%;
 
   opacity: 1;
-}
-.fade{
-
-  background-color:rgba(0,0,0,.3);
-
-  opacity: 1;
-
-  animation: appear 10s ease-in-out infinite alternate;
-}
-@keyframes appear{
-  from{
-
-  opacity: 0;
-  }
-  to {
-
-    opacity: 1;
-  }
 }

@@ -1,4 +1,4 @@
-header, body{
+body, header{
   display: flex;
   flex-flow: row wrap;
   }
@@ -14,7 +14,6 @@ aside, body>section, footer{
   justify-content: center;
   align-items: center;
 }
-
 .banner{
   height: 15vh;
 }
@@ -26,14 +25,9 @@ nav{
 aside{
   height: 25vh;
 }
-
 body>section{
   height: 50vh;
-
 }
-
-
 footer{
-  flex-wrap: wrap;
-  min-height: 5vh;
+  height: 5vh;
 }

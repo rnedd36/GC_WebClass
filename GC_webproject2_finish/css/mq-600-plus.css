@@ -2,29 +2,23 @@ aside{
   display:flex;
   flex-direction:column;
   width: 30%;
-  min-height: 85vh;
-}
-
-footer{
-  height: 10vh;
-}
-section>img{
-  max-height: 25vh;
+  height: 75vh;
 
 }
 
 body > section{
-  width: 70%;
-  padding:2%;
-  height: 85vh;
+  display: flex;
+  width: 68%;
+  height: 75vh;
+
 
 }
-
+.body-layout{
+  width: 70%;
+}
 ul{
   width: 50%;
 }
-
 li{
   border: none;
-
 }

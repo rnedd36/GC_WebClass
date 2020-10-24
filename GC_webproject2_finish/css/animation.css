@@ -1,0 +1,82 @@
+.radiate{
+  text-shadow: 4px 4px 0 #666;
+  animation: glow 5s ease-in-out infinite alternate;
+}
+@keyframes glow{
+  from{
+    text-shadow: 0 0 10px #fdeb70,
+                 0 0 20px #fdeb70,
+                 0 0 30px #fdeb90,
+                 0 0 40px #fdeb90,
+                 0 0 50px #edcb00,
+                 0 0 60px #edcb00,
+                 0 0 70px #ed7b00,
+                 0 0 80px #ed7b00;
+  }
+  to{
+    color: #fff;
+    text-shadow: 0 0 10px #ff4d37,
+                 0 0 20px #ff4d37,
+                 0 0 30px #ff4df6,
+                 0 0 40px #ff4df6,
+                 0 0 50px #ff4dc6,
+                 0 0 60px #ff4dc6,
+                 0 0 70px #ff4da6,
+                 0 0 80px #ff4da6;
+  }
+}
+.clrchge{
+  text-shadow: -4px -4px 3px #f0ea5c;
+  animation: chgcolor 5s ease-in-out infinite alternate;
+}
+
+@keyframes chgcolor {
+  0%   {color: #e04758;
+        text-shadow: -4px -4px 3px #f0ea8c;
+  }
+  25%  {color: #c04758;
+        text-shadow: -4px -4px 3px #f0eaac;
+  }
+  50%  {color: #510f00;
+        text-shadow: -4px -4px 3px #f0eacc;
+  }
+  100% {color: #710f00;
+        text-shadow: -4px -4px 3px #f0eaec;
+  }
+}
+.bkgcolor{
+  animation:bkgrclr 5s ease-in-out infinite alternate;
+}
+@keyframes bkgrclr {
+  0%   {background-color: #000;}
+  10%  {background-color: #504758;}
+  25%  {background-color: #504778;}
+  35%  {background-color: #504798;}
+  50%  {background-color: #5047b8;}
+  65%  {background-color: #010f10;}
+  100% {background-color: #010f00;}
+}
+.bkgcolor2{
+  animation:bkgrclr2 5s ease-in-out infinite alternate;
+}
+
+@keyframes bkgrclr2 {
+  0%   {background-color: #000000;}
+  25%  {background-color: #303030;}
+  50%  {background-color: #101010;}
+  100% {background-color: #000010;}
+}
+.fade{
+  opacity: 1;
+  animation: appear 10s ease-in-out infinite alternate;
+}
+@keyframes appear{
+  from{
+
+    opacity: 0;
+  }
+  to {
+
+    opacity: 1;
+  }
+}

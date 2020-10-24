@@ -7,8 +7,10 @@ html {
   font-size: calc(.6em + 0.5vw);
   line-height: calc(1.1em + 0.5vw);
   font-family: sans-serif;
-  min-width: 400px;
-  min-height: 700px;
+  min-width: 320px;
+  max-width: 1200px;
+  box-sizing: border-box;
+
 }
 
 html, body, section, nav, header, h1, button, ul, a{
@@ -16,7 +18,9 @@ html, body, section, nav, header, h1, button, ul, a{
   padding: 0;
 
 }
-
+img{
+  display:block;
+}
 body {
   font-size: 2vw;
 }

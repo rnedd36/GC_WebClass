@@ -37,13 +37,16 @@ aside {
 
 body>section {
   color: #AAD0EF;
-  background-color: #1A405F;
+  background-color: transparent;
 }
 
 footer {
+  background: linear-gradient(#A90000, #E96020, #F9B930, #4000FF, #9000FF);
+  text-align: center;
   color: #3A40EF;
-  background-color: #A940EF;
+  font-size: 1.5rem;
 }
+
 
 section:nth-child(1), body>section,
 aside, footer {

@@ -1,6 +1,11 @@
 *{
   box-sizing: border-box;
 }
+html, body, section, nav, header, h1, button, ul, a{
+  margin: 0;
+  padding: 0;
+
+}
 html {
   /*font-size: 2vw;*/
   color: #DDD;
@@ -10,14 +15,10 @@ html {
   min-width: 320px;
   max-width: 1200px;
   box-sizing: border-box;
-
+  margin: 0 auto;
 }
 
-html, body, section, nav, header, h1, button, ul, a{
-  margin: 0;
-  padding: 0;
 
-}
 img{
   display:block;
 }

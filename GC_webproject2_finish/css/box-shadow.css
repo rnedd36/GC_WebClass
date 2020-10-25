@@ -9,9 +9,11 @@
 }
 .bx-bot{
   box-shadow:9px 9px 3px 3px #000;
+  background-color: #1a405f;
 }
 .bx-top{
   box-shadow:-3px -3px 7px 3px #000;
+  background-color: #1a405f;
 }
 .bx-inset{
   box-shadow:inset 0 0 15px #000;

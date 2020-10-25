@@ -1,0 +1,24 @@
+aside{
+  display:flex;
+  flex-direction:column;
+  width: 30%;
+  height: 75vh;
+
+}
+
+body > section{
+  display: flex;
+  width: 68%;
+  height: 75vh;
+
+
+}
+.body-layout{
+  width: 70%;
+}
+ul{
+  width: 50%;
+}
+li{
+  border: none;
+}

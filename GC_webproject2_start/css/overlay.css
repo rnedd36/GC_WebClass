@@ -1,10 +1,10 @@
 .overlay{
-  overflow:hidden;
+  /*overflow:hidden;*/
   position: relative;
   transition: .3s ease-in;
 }
 
-.appear{
+.ovrly-appear{
   position:absolute;
   display:flex;
   flex-direction:column;
@@ -13,24 +13,25 @@
   top:0;
   width:100%;
   height:100%;
-  border-radius: 50%;
+  /*border-radius: 50%; */
   text-align: center;
-  vertical-align: center;
+  /*vertical-align: center;*/
   background-color:rgba(0,0,0,.6);
   font-size: 1.2rem;
   opacity: 0;
-  line-height:1.2;
-  transition: .5s ease-in;
+  line-height:1.3;
+  /*transition: .5s ease-in;*/
   z-index: 3000;
 }
-.overlay .appear:hover{
+.overlay .ovrly-appear:hover{
   opacity: 1;
 
 }
 .overlay:hover{
   box-shadow: 0 0 0;
 }
-.slide-up{
+
+.ovrly-slide-up{
   position:absolute;
   bottom:0;
   display:flex;
@@ -49,7 +50,7 @@
   transition: .5s ease;
 
 }
-.left-in{
+.ovrly-left-in{
   position:absolute;
   display:flex;
   flex-direction:column;
@@ -61,20 +62,20 @@
   border-radius: 50%;
   text-align: center;
   vertical-align: center;
-  background-color:rgba(0,0,0,.6);
+  background-color:rgba(0,0,0,.1);
   font-size: 1.2rem;
   opacity: 0;
   line-height:1.5;
   transition: .5s ease;
 
 }
-.overlay:hover .left-in{
-  width: 104%;
+.overlay:hover .ovrly-left-in{
+  width: 102%;
   opacity: 1;
 }
-.overlay:hover .slide-up{
+.overlay:hover .ovrly-slide-up{
 
-  height: 104%;
+  height: 101%;
 
   opacity: 1;
 }

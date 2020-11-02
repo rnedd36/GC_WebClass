@@ -1,5 +1,9 @@
 
 
+.ln-height h1{
+  line-height: 1;
+  text-align: center;
+}
 .carve{
   color:#A9F05F;
   text-shadow: 3px 2px 3px #808d93,

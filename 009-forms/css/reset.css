@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+html, body, section, nav, header, h1, button, ul, a{
+  margin: 0;
+  padding: 0;
+
+}
+html {
+  /*font-size: 2vw;*/
+  color: #DDD;
+  font-size: calc(.6em + 0.5vw);
+  line-height: calc(1.1em + 0.5vw);
+  font-family: sans-serif;
+  min-width: 320px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+img{
+  display:block;
+}
+body {
+  font-size: 2vw;
+}
+
+button, a {
+  border: 0;
+  background: transparent;
+}
+
+ul {
+
+  list-style: none;
+}
+a{
+  text-decoration: none;
+
+}

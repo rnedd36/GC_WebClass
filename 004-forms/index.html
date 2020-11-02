@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Template</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+  <form class="form-style-4" action="" method="post">
+  <label for="field1">
+  <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+  </label>
+  <label for="field2">
+  <span>Email Address</span><input type="email" name="field2" required="true" />
+  </label>
+  <label for="field3">
+  <span>Short Subject</span><input type="text" name="field3" maxlength="40" size="40" required="true" />
+  </label>
+  <label for="field4">
+  <span>Message to Us</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+  </label>
+  <label>
+  <span>&nbsp;</span><input type="submit" value="Send Letter" />
+  </label>
+  </form>
+</body>
+<script src="jscode/form.js"></script>
+</html>

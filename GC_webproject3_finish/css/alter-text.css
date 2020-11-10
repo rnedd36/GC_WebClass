@@ -1,0 +1,60 @@
+
+.ctr-text{
+  text-align: center;
+}
+.banner{
+  font-size:3rem;
+}
+.ln-height{
+  line-height: 1;
+  text-align: center;
+
+
+}
+.ln-height h1{
+  font-size: 2.75rem;
+}
+
+.carve{
+  color:#A9F05F;
+  text-shadow: 3px 2px 3px #808d93,
+               1px 1px 2px #808d93;
+
+}
+.duggy{
+        color: rgba(0,0,0,0.6);
+  text-shadow: 3px 3px 5px rgba(255,255,255,0.6);
+}
+.phoenix{
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #ff4da6,
+               0 0 30px #ff4da6,
+               0 0 40px #ff4da6,
+               0 0 50px #e60073,
+               0 0 60px #e60073,
+               0 0 70px #e60073,
+               0 0 80px #e60073;
+}
+.fire{
+  color: #000;
+  text-shadow: 0 0 10px #fdeb70,
+               0 0 20px #fdeb70,
+               0 0 30px #fdeb70,
+               0 0 40px #ed7b00,
+               0 0 50px #ed7b00,
+               0 0 60px #ed7b00,
+               0 0 70px #e60073,
+               0 0 80px #e60073;
+ }
+ .tombstone{
+   text-shadow:    0 1px #000,
+                  -1px 0 #000,
+                -1px 2px #000,
+                -2px 1px #c00;
+ }
+ .enhanced{
+   text-shadow:  0 1px #000,
+                -1px 0 #000,
+              -1px 2px #000;
+ }

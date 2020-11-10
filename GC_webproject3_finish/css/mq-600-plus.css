@@ -1,0 +1,27 @@
+aside{
+  display:flex;
+  flex-direction:column;
+  width: 30%;
+  height: 75vh;
+
+}
+
+body > section{
+  display: flex;
+  width: 68%;
+  height: 75vh;
+
+
+}
+section h1 {
+  font-size: calc(1.5em + 4vw);
+}
+.body-layout{
+  width: 70%;
+}
+ul{
+  width: 50%;
+}
+li{
+  border: none;
+}

@@ -1,0 +1,80 @@
+.overlay{
+  overflow:hidden;
+  position: relative;
+  transition: .3s ease-in;
+}
+
+.appear{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  top:0;
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  background-color:rgba(0,0,0,.6);
+  font-size: 1.2rem;
+  opacity: 0;
+  line-height:1.2;
+  transition: .5s ease-in;
+  z-index: 3000;
+}
+.overlay .appear:hover{
+  opacity: 1;
+
+}
+.overlay:hover{
+  box-shadow: 0 0 0;
+}
+.slide-up{
+  position:absolute;
+  bottom:0;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  height:0;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  background-color:rgba(0,0,0,.6);
+  font-size: 1.2rem;
+  opacity: 0;
+  line-height:1.5;
+  transition: .5s ease;
+
+}
+.left-in{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  bottom:0;
+  width:0;
+  height:100%;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  background-color:rgba(0,0,0,.6);
+  font-size: 1.2rem;
+  opacity: 0;
+  line-height:1.5;
+  transition: .5s ease;
+
+}
+.overlay:hover .left-in{
+  width: 104%;
+  opacity: 1;
+}
+.overlay:hover .slide-up{
+
+  height: 104%;
+
+  opacity: 1;
+}

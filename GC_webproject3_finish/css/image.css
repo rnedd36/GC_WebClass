@@ -1,0 +1,88 @@
+.main-layout{
+  border-radius: 10px;
+  border: 15px groove rgba(0,0,0,.6);
+  border-image: radial-gradient(#000090, #000020, #000070, #000050, #000040,#000) 50;
+  background-image: radial-gradient(circle at top left, #f00,#3020ff);
+  margin:2% 0;
+}
+
+.main-img{
+  background-image: url("../img/times-square.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
+
+aside{
+  padding: 2%;
+}
+
+.imglayout{
+  color:inherit;
+  width: 100%;
+  height: 100%;
+  margin: 2%;
+  border: 5px solid;
+  border-radius: 50%;
+  overflow:hidden;
+  max-width: 200px;
+
+}
+.art{
+   width: 101%;
+   height: 101%;
+}
+.body-layout{
+  flex-wrap:wrap;
+  width: 100%;
+  min-height: 100px
+  padding-top: 10%;
+  height:200vh;
+}
+.article-layout{
+  padding:0 1%;
+  width:90%;
+  height:30%;
+  max-width: 600px;
+
+  border: 10px solid;
+  border-radius: 25px;
+}
+.img_text{
+
+  font-size:1.2rem;
+  line-height:1.5;
+}
+.img_rt, .img_lt, .img_ltr{
+  max-width:300px;
+}
+.img_rt{
+  display:block;
+  float:right;
+  width: 50%;
+  height:60%;
+  margin: 0 1%;
+  border:3px groove #fff;
+}
+
+.img_lt{
+  display:block;
+  float:left;
+  width: 50%;
+  height:60%;
+
+  margin: 1% 1% 0 0;
+  border-radius: 50%;
+  border: 3px groove #fff;
+}
+.img_ltr{
+  display:block;
+  float:left;
+  width: 50%;
+  height:60%;
+  margin: 0 1%;
+  border:3px groove #fff;
+}

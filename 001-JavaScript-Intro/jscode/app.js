@@ -152,5 +152,4 @@ function chgCSSClass(query, css){
         // console.log(item);
     });
 
-
 }

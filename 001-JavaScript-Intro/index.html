@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript Basics</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/button.css">
+</head>
+<body>
+    <h1 id="header1" class="headers">Hello World Page</h1>
+    <h4 id="header4" class="headers">Hello People</h4>
+
+    <button id="btn1">alert</button>
+    <button class="btn2">document</button>
+    <button class="btn1">console</button>
+    <button id="btn3">innerHTML</button>
+    <input type="text" id="fname" placeholder="First Name">
+    <input type="text" id="lname" placeholder="last Name">
+    <button id="submitbtn">Submit Name</button>
+    <button id="cmpbtn">Comparison</button>
+    <button id="datatypes">Data Types</button>
+    <button class="datatypes" onclick="hello();">function one</button>
+    <button class="datatypes" onclick="hello2('fname','lname')">function two</button>
+    <button class="datatypes" onclick="countConst(10)">Const</button>
+    <button class="datatypes" onclick="countLet(10)">Let</button>
+    <button class="datatypes" onclick="chgColors('header4')">Change ID</button>
+    <button class="datatypes" onclick="chgColors2('headers')">Change Class</button>
+    <button class="datatypes" onclick="chgColors3('h1')">Change Tag Name</button>
+    <button class="datatypes" onclick="chgCSSID('header1','coolBackground')">Change CSS ES5</button>
+    <button class="datatypes" onclick="chgCSSClass('.headers','coolBackground')">Change CSS ES6</button>
+
+    <script src="./jscode/app.js"></script>
+</body>
+</html>

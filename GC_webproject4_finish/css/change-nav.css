@@ -1,0 +1,11 @@
+nav ul{
+  width: 100%;
+}
+nav li{
+  width: 15%;
+}
+
+li:nth-child(1){
+    order:1;
+    margin-left: auto;
+}

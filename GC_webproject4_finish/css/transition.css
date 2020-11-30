@@ -1,0 +1,16 @@
+.zoom{
+  transition: transform 4s, border-radius 4s;
+}
+
+.img_rt:hover{
+  transform: scale(2.5)translateX(-20%) ;
+  border-radius: 50%;
+}
+
+.img_lt:hover,.img_ltr:hover{
+  transform: scale(2.5) translateX(20%);
+  border-radius: 20px;
+}
+.chg-color{
+  transition: background-color 3s, color 10s;
+}

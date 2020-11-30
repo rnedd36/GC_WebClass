@@ -1,0 +1,52 @@
+.btn_link {
+
+	}
+.btn_link {
+text-align: center;
+text-decoration: none;
+display: block;
+border: 3px solid;
+border-color: #CCC #333 #333 #CCC;
+width: 240px;
+padding: 15px 25px;
+background-color: #000;
+color: #3498DB;
+font-weight: bold;
+border-radius: 8px;
+}
+.btn_link:hover {
+	background-color: #3498DB;
+	color: #000;
+}
+.btn_link:active{
+	
+	border-color: #333 #CCC #CCC #333;
+}
+.center {
+  
+	position: absolute;
+  
+	top: 45%;
+  
+	left: 50%;
+  
+	transform: translate(-50%, -50%);
+  
+	font-size: 18px;
+
+}
+
+
+.bottom {
+	
+positon:absolute;
+	display:inline;
+	bottom: 0%;
+  
+	left: 50%;
+  
+	//transform: translate(-50%, -50%);
+  
+	font-size: 18px;
+
+}

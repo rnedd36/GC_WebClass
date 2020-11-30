@@ -1,0 +1,90 @@
+.root{
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* Custom colors I like */
+  --clr-primary-11: #aad0ef;
+
+}
+
+.main-img{
+  background-image: url("../img/times-square.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  transition: opacity 8s ease-in-out;
+  ;
+
+}
+.img-container{
+  position: relative;
+  padding:0 1%;
+  width:90%;
+  height:90%;
+  max-width: 600px;
+
+  border: 10px solid;
+  border-radius: 25px;
+  overflow:hidden;
+  box-shadow:5px 5px 3px 3px #000;
+  opacity: 1;
+}
+/* taken from css_image in website code*/
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--clr-primary-11);
+  font-size: 5rem;
+}
+.left-center{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0, -50%);
+  color: var(--clr-primary-11);
+  font-size: 2.5rem;
+}
+.right-center{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+  color: var(--clr-primary-11);
+  font-size: 2.5rem;
+}
+.pictureText{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color:#000;
+  min-height: 10%;
+  opacity: 0.6;
+  font-size: 2rem;
+}
+.disappear{
+  opacity: 0;
+}
+.reappear{
+  opacity: 1;
+}
+.btn{
+  cursor: pointer;
+  outline: none;
+  
+}

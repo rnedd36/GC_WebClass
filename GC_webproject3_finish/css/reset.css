@@ -1,10 +1,10 @@
 *{
   box-sizing: border-box;
 }
-html, body, section, nav, header, h1, button, ul, a{
+html, body, main,section, nav, header, h1, button, ul, a{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 html {
   /*font-size: 2vw;*/

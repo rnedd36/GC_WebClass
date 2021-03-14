@@ -4,32 +4,39 @@ const images = [
   {
     id: 1,
     img_url:"url(img/times-square.jpg)",
-    alt:"",
+    alt:"Times Square",
     text:"Times&nbspSquare"
   },
   {
     id: 2,
     img_url:"url('img/broadway.jpg')",
-    alt:"",
+    alt:"Broadway",
     text:"Broadway"
   },
   {
     id: 3,
     img_url:"url('img/brooklynbridge.jpg')",
-    alt:"",
+    alt:"Brooklyn Bridge",
     text:"Brooklyn&nbspBridge"
   },
   {
     id: 4,
     img_url:"url('img/statueliberty.jpg')",
-    alt:"",
+    alt:"Statue of Liberty",
     text:"Statue&nbspof&nbspLiberty"
   },
   {
     id: 5,
     img_url:"url('img/chinatown.jpg')",
-    alt:"",
+    alt:"Chinatown",
     text:"Chinatown"
+  }
+  ,
+  {
+    id: 6,
+    img_url:"url('img/manhattanbridge.jpg')",
+    alt:"Manhattan Bridge",
+    text:"Manhattan Bridge"
   }
 ];
 // The JavaScript Code starts below. Edit carefully or Not At All!!!!
@@ -52,6 +59,7 @@ function showPic(num){
   currentImage = checkCount(currentImage);
   const image = images[currentImage];
 
+// Set the values from the Array at top file
   img.style.backgroundImage = image.img_url;
   img.alt = image.alt;
   id_num.innerHTML = image.id;
@@ -66,6 +74,7 @@ function showPic(num){
   }
   runFile = setTimeout("disappear()", 8000);
 }
+
 function checkCount(currentCount){
 
   if (currentImage > images.length - 1) { currentCount = 0;}

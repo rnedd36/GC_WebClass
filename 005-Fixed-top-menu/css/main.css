@@ -18,7 +18,7 @@ nav {
 
 button, li a{
   height: 100%;
-  border-radius: 5px;
+  #border-radius: 5px;
   background-color: transparent;
   font-size: 1.5rem;
   color: inherit;
